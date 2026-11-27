@@ -1,6 +1,7 @@
 import numpy as np
 import pytest
-from analysis import mean_brightness  
+
+from application.analysis import mean_brightness  
 
 def test_black_image_is_zero():
     img = np.zeros((10, 10, 3), dtype=np.uint8)

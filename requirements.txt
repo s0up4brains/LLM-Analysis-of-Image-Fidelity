@@ -2,4 +2,7 @@ anthropic
 python-dotenv
 pytest
 numpy 
+opencv-python
+pandas
+seaborn
 scikit-image
